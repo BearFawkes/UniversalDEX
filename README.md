@@ -1,4 +1,4 @@
-# UniversalDEX# UniversalDEX Demo
+# UniversalDEX Demo
 
 ## Features
 - Local and cross-chain swaps
@@ -8,19 +8,10 @@
 - Interactive front-end
 
 ## Quick Start
+
+1. Install dependencies:
 ```bash
 npm install
 cd frontend
 npm install
 cd ..
-npm run start-node1
-npm run start-node2
-npm run start-node3
-npm run deploy-demo
-const DEX_ADDRESS = "0xYourDEXAddress";
-const DAO_ADDRESS = "0xYourDAOAddress";
-const TOKEN_A_ADDRESS = "0xYourTokenA";
-const TOKEN_B_ADDRESS = "0xYourTokenB";
-npm run start-frontend
-npm test
-
