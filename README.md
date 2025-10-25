@@ -20,13 +20,14 @@ UniversalDEX is a decentralized exchange demo that supports:
 
 ## Quick Start
 
-1. **Install root dependencies:**
-```bash
 npm install
 cd frontend
 npm install
 cd ..
-npm run compile
-npm run start-node1
-npm run deploy-demo
-npm run start-frontend
+npx hardhat node --port 8545 --network chain1
+npx hardhat node --port 8546 --network chain2
+npx hardhat node --port 8547 --network chain3
+npx hardhat run scripts/deploy-demo.js --network chain1
+frontend/src/App.js
+cd frontend
+npm start
